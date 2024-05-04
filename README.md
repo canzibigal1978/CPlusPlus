@@ -19,3 +19,4 @@ Curso de C++
  - E7 - Pare
 
 ## Curso de C++ #03 - Estrutura básica de um programa em C++
+## Curso de C++ #04 - Variáveis em C++
