@@ -25,3 +25,4 @@ Curso de C++
 ## Curso de C++ #07 - Incremento e Decremento de Variáveis, Operadores pós e pré-fixados
 ## Curso de C++ #08 - Invertendo valores de variáveis
 ## Curso de C++ #09 - Comando de decisão IF ELSE- Parte 1
+## Curso de C++ #10 - Comando de decisão IF ELSE e comando Goto - Parte 2
