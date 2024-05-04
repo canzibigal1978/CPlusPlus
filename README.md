@@ -23,3 +23,4 @@ Curso de C++
 ## Curso de C++ #05 - Declarações múltiplas de variáveis, Constantes #Define
 ## Curso de C++ #06 - Variáveis Globais e Locais, Operadores matemáticos
 ## Curso de C++ #07 - Incremento e Decremento de Variáveis, Operadores pós e pré-fixados
+## Curso de C++ #08 - Invertendo valores de variáveis
