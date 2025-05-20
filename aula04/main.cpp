@@ -23,7 +23,7 @@ int main(){
     decimal=5.2;
     decimal2=5.2;
     vivo=true;
-    nome="francisco";
+    nome="bigal";
     
     cout << "Digite o numero de vidas: ";
     cin >> vidas;
