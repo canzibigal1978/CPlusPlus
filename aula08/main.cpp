@@ -21,17 +21,20 @@ int main() {
     
     int num = 10;
     
-    cout << num <<endl;
+    cout <<"(num):"<< num <<endl;
     
     num = num * -1;
     
-    cout << num << endl;
+    cout << "(num * -1):"<<num << endl;
     
-    cout << -num << endl;
+    num = 10;
+    cout << "(num):"<< num << endl;
+    cout << "(-num):"<<-num << endl;
     
+    num = 10;
     num = -num;
     
-    cout << num<< endl;
+    cout << "(num=-num):"<< num<< endl;
     
 
     return 0;
