@@ -39,7 +39,7 @@ int main() {
     
     res=g1+g2+n1+n2-10;
     
-    cout << "Soma: " << res << endl;
+    cout << "Soma e Subtração: " << res << endl;
     
     res=g1+g2*n2;
     
