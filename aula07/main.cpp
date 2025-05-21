@@ -24,33 +24,37 @@ int main() {
     n1 = 0 ;
     n2 = 10;
     
-    cout << "p0:"<< n1 <<endl;
+    cout << "p0():"<< n1 <<endl;
     n1=n1+1;
-    cout << "p1:"<< n1 <<endl;
+    cout << "p1(n1=n1+1):"<< n1 <<endl;
     n1+=10;
-    cout << "p2:"<< n1 <<endl;
+    cout << "p2:(n1+=10)"<< n1 <<endl;
     n1-=1;
-    cout << "p3:"<< n1 <<endl;
+    cout << "p3:(n1-=1)"<< n1 <<endl;
     n1+=5;
-    cout << "p4:"<< n1 <<endl;
+    cout << "p4(n1+=5):"<< n1 <<endl;
     n1++;
-    cout << "p5:"<< n1 <<endl;
+    cout << "p5(n1++):"<< n1 <<endl;
     n1--;
-    cout << "p6:"<< n1 <<endl;
+    cout << "p6(n1--):"<< n1 <<endl;
     n1*=2;
-    cout << "p7:"<< n1 <<endl;
+    cout << "p7(n1*=2):"<< n1 <<endl;
     n1/=2;
-    cout << "p8:"<< n1 <<endl;
+    cout << "p8(n1/=2):"<< n1 <<endl;
     ++n1;
-    cout << "p9:"<< n1 <<endl;
+    cout << "p9(++n1):"<< n1 <<endl;
     n1=10;
-    cout << "p10:"<< n1 <<endl;
+    cout << "p10(n1=10):"<< n1 <<endl;
 
-    cout << "p11:"<<++n1 << endl;
-    
+    cout << "p11(pre incremento '++n1'):"<<++n1 << endl;
+    cout << "p12(pre incremento '--n1'):"<<--n1 << endl;
+
     n1=10;
-    cout << "p12:"<<n1++<<endl;
-    cout<<"p13;"<<n1<<endl;
+    cout << "p13(pos incremento 'n1++'):"<<n1++<<endl;
+    cout<<"p14(Pos incremento):"<<n1<<endl;
+
+    cout << "p15(pos incremento 'n1--'):"<<n1--<<endl;
+    cout<<"p16(Pos incremento):"<<n1<<endl;
     return 0;
 }
 
