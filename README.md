@@ -8,8 +8,8 @@ Curso de C++
 
 1. Uma tabela exadecimal que vai de 1 a f
    `[E1][E2][E3][E4][E5]
- [E6][E7][E8][E9][EA]
- [EB][EC][ED][EE][EF]`
+[E6][E7][E8][E9][EA]
+[EB][EC][ED][EE][EF]`
 
 2. Instruções:
 
@@ -36,3 +36,5 @@ Curso de C++
 ## Curso de C++ #09 - Comando de decisão IF ELSE- Parte 1
 
 ## Curso de C++ #10 - Comando de decisão IF ELSE e comando Goto - Parte 2
+
+## Curso de C++ #11 - Operadores AND, OR, NOT
