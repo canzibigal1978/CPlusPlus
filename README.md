@@ -23,6 +23,23 @@ Curso de C++
 
 ## Curso de C++ #03 - Estrutura básica de um programa em C++
 
+```
+#include <iostream>
+
+using namespace std;
+
+/*
+ *
+ */
+int main() {
+
+    cout << "Canal fessor bruno \n Curso de C++\n" << endl;
+    //system("pause");
+
+    return 0;
+}
+```
+
 ## Curso de C++ #04 - Variáveis em C++
 
 ## Curso de C++ #05 - Declarações múltiplas de variáveis, Constantes #Define
@@ -38,3 +55,35 @@ Curso de C++
 ## Curso de C++ #10 - Comando de decisão IF ELSE e comando Goto - Parte 2
 
 ## Curso de C++ #11 - Operadores AND, OR, NOT
+
+## Curso de C++ #12 - Operador ternário
+
+# Modelo padrão
+
+```
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+/*
+ *
+ */
+int main() {
+    char opc;
+
+    inicio:
+    System("clear");
+
+    /*code*/
+
+    // fim do programa
+    cout << "Gostaria de testar novamente?(s/n) ";
+    cin >> opc;
+
+    if(opc=='s' or opc=='S'){
+        goto inicio;
+    }
+    return 0;
+}
+```
