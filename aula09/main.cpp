@@ -25,10 +25,10 @@ int main() {
     
     if (num >= 10){ //teste logicos >, <, <=, >=, ==,?=
         // se verdadeiro
-        cout << "valor de num maior que 10" << endl;
+        cout << "valor de num maior ou igual que 10" << endl;
         
     }else{
-        // se não verdadeiro
+        // se não verdadeiro (se falso)
         return false;
         
     }

@@ -11,6 +11,7 @@
  */
 
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ int main() {
     char opc;
     
     inicio:
+    system("clear");
     
     cout << "Digite o valor da nota 1: ";
     cin >> n1;
@@ -47,7 +49,7 @@ int main() {
         cout << "Aluno reprovado!"<<endl;
     }
     
-    cout << "Gostaria de digitar outras notas? ";
+    cout << "Gostaria de digitar outras notas?(s/n) ";
     cin >> opc;
     
     if(opc=='s' or opc=='S'){
